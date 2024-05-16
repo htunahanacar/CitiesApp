@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cities.Core", "Cities.Core\Cities.Core.csproj", "{432C5BA1-7D3B-464B-9414-5CF18DAFF44C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cities.Core", "Cities.Core\Cities.Core.csproj", "{432C5BA1-7D3B-464B-9414-5CF18DAFF44C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cities.Repository", "Cities.Repository\Cities.Repository.csproj", "{0E747E76-F385-4153-AAA2-E2A07022F733}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{432C5BA1-7D3B-464B-9414-5CF18DAFF44C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{432C5BA1-7D3B-464B-9414-5CF18DAFF44C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{432C5BA1-7D3B-464B-9414-5CF18DAFF44C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E747E76-F385-4153-AAA2-E2A07022F733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E747E76-F385-4153-AAA2-E2A07022F733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E747E76-F385-4153-AAA2-E2A07022F733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E747E76-F385-4153-AAA2-E2A07022F733}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
