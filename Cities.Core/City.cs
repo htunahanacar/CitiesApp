@@ -8,11 +8,11 @@ namespace Cities.Core
 {
     public class City : BaseEntity
     {
-        public string Name { get; set; }
+        public required string Name { get; set; }
         public int Population {  get; set; }
-        public string Description { get; set; }
+        public string? Description { get; set; }
         public int CountryId { get; set; }
-        public Country Country { get; set; }
-        public ICollection<CityDestination> Destinations { get; set; }
+        public Country? Country { get; set; }
+        public ICollection<CityDestination>? Destinations { get; set; }
     }
 }
