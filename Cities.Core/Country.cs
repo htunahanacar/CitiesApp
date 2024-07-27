@@ -8,9 +8,9 @@ namespace Cities.Core
 {
     public class Country : BaseEntity
     {
-        public string Name { get; set; }
-        public string CountryCode { get; set; }
-        public string FlagUrl { get; set; }
-        public string Continent { get; set; }
+        public required string Name { get; set; }
+        public string? CountryCode { get; set; }
+        public string? FlagUrl { get; set; }
+        public string? Continent { get; set; }
     }
 }
